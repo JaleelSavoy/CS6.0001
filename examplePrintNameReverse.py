@@ -1,5 +1,5 @@
 #print name example
-def printName(firstName, lastName, reverse):
+def printName(firstName, lastName, reverse = False):
     if reverse:
         return print(lastName + "," + firstName)
     else:
